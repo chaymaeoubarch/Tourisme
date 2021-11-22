@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HeaderFooter.css">
+    <link rel="stylesheet" href="main.css">  
+    <link rel="stylesheet" href="MQueries.css"> 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Tourisme</title>
+</head>
+<body>
+<header>
+<nav>
+     <img class="logo" src="assets/logo.png" alt="">
+        <ul class="nav-menu" id="navlist">
+            <li class="list-item"> <a href="home.html"> Home</a> </li>
+            <li class="list-item"> <a href="flight.html"> Flights</a> </li>
+            <li class="list-item"> <a href="stays.html"> Stays</a> </li>
+            <li class="list-item"> <a href="about.html"> About</a> </li>
+        </ul>
+        <div class="menu" id="nav_icon">
+            <i class="fa fa-bars"></i>
+        </div>
+ </nav>
+    <div class="h1">
+        <h1>Start Your Journey With </h1>
+        <h1>“Wise Travel” Agency </h1>
+    <div class="searching">
+        <input class="search" type="search">
+        <i class="fas fa-search"></i>
+    </div>
+    </div>
+  
+    </header>
+    <main>
+    <div class="sec"> 
+        <h2>Trending Places</h2>
+        <div id="places">
+        <div class="card">
+        <img src="assets/maldives.png" alt="">
+        <h5>Maldives</h5>
+    </div>
+     <div class="card">
+        <img src="assets/santorino.png" alt="">
+        <h5>Santorino</h5>
+    </div>
+    <div class="card">
+        <img src="assets/mexico.png" alt="">
+         <h5>Mexico</h5>
+    </div>
+    <div class="card">
+        <img src="assets/ibiza.png" alt="">
+        <h5>Ibiza</h5>
+    </div>
+              
+        </div>
+    </div>
+        <div class="sec">
+            <h2>Why Choose Us</h2>
+            <img src="assets/globe.png" alt="">
+            <div id="choose">
+            <div class="desc">
+                <h4>All in one</h4>
+                <br>
+                <p>Book full trips including transport</p>
+            </div>
+            <div class="desc">
+                <h4>Faster</h4>
+                <br>
+                <p>Faster bookings with express checkout</p>
+            </div>
+            <div class="desc">
+                <h4>Cheaper</h4>
+                <br>
+                <p>Lowest prices, no booking fees and no platform cost</p>
+            </div>
+            <div class="desc">
+                <h4>Safer</h4>
+                <br>
+                <p>Know exactly where your travellers are staying at any time</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="sec">
+            <h2>How To Find Us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.181901377491!2d-5.827722684886695!3d35.74633358017922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b87c216892bc7%3A0x48bdf85995e9c186!2sSolicode%20Tanger!5e0!3m2!1sen!2sma!4v1637590571113!5m2!1sen!2sma" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>Privacy Terms & Conditions ©2021 Wise Travel</p>
+     <div class="sm">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest-p"></i>
+    </div>
+        <p>Wise Travel is a part of Booking Holdings,
+             The world leader in online travel & related sevices</p>
+        <div class="cmp">
+            <a href=""><img src="assets/footer1.png" alt=""></a>
+            <a href=""><img src="assets/footer2.png" alt=""></a>
+            <a href=""><img src="assets/footer33.png" alt=""></a>
+        </div>
+    </footer>
+    <script>
+        const togglebutton = document.getElementById('nav_icon');
+        const navList = document.getElementById('navlist');
+        togglebutton.addEventListener('click', ()=>
+        navList.classList.toggle('active')
+        );
+    </script>
+</body>
+</html>

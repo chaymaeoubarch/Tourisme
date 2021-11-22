@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HeaderFooter.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="MQueries4.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Tourisme</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="assets/logo.png" alt="">
+            <ul class="nav-menu" id="navlist">
+                <li class="list-item"> <a href="home.html"> Home</a> </li>
+                <li class="list-item"> <a href="flight.html"> Flights</a> </li>
+                <li class="list-item"> <a href="stays.html"> Stays</a> </li>
+                <li class="list-item"> <a href="about.html"> About</a> </li>
+           </ul>
+               <div class="menu" id="nav_icon">
+                   <i class="fa fa-bars"></i>
+               </div>
+        </nav>
+         <div class="main-container">
+         <h1>Contact Us</h1>
+         <main>
+         
+            <div class="containermain">
+                <form action="#">
+                    <input class="inputs" type="text" placeholder="Email">
+                    <textarea class="inputs" rows="15" cols="50" placeholder="Message" ></textarea>
+                    <input type="submit" value="send">
+                </form>
+            </div>  
+        </main>
+    </div>
+    </header>
+
+
+<footer>
+    <p>Privacy Terms & Conditions ©2021 Wise Travel</p>
+ <div class="sm">
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-pinterest-p"></i>
+</div>
+    <p>Wise Travel is a part of Booking Holdings,
+         The world leader in online travel & related sevices</p>
+    <div class="cmp">
+        <a href=""><img src="assets/footer1.png" alt=""></a>
+        <a href=""><img src="assets/footer2.png" alt=""></a>
+        <a href=""><img src="assets/footer33.png" alt=""></a>
+    </div>
+</footer>
+<script>
+    const togglebutton = document.getElementById('nav_icon');
+    const navList = document.getElementById('navlist');
+    togglebutton.addEventListener('click', ()=>
+    navList.classList.toggle('active')
+    );
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'abel';
+    src: url(Abel-Regular.ttf);
+}
+@font-face{
+    font-family: 'roboto';
+    src: url(RobotoCondensed-Bold.ttf);
+}
+*{
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+}
+body{text-align: center;}
+
+header{
+    width: 100%;
+    height: 95vh;
+    background : url(assets/background3.jpg) no-repeat center center  fixed;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+.logo{
+    justify-self: flex-start;
+    width: 100px;
+    height: 75px;
+    margin-top: 10px;
+}
+header nav  ul{
+    list-style-type: none;
+    width: 100%; 
+    display: flex;
+    align-self: center;
+    justify-content: center ;
+}
+ header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'proximanova',bold,sans-serif;
+    text-shadow: 2px 2px #696666d2;
+    font-size: 25px;
+    padding-right: 20px;
+    font-weight: bold;
+   
+}
+header nav ul li{
+    padding-left: 4em;
+}
+
+
+
+.Ticket{
+    background-color: #c4c4c485;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 300px 100px 0px 100px;
+    grid-gap: 15px;
+    padding: 30px;
+    border-radius: 15px;
+    
+    }
+    .Ticket i{
+        color: white;
+        font-size: 40px;
+        justify-self: center;
+        align-self: center;
+    }
+    .fromto{
+        padding-left: 10px;
+        width: 420px;
+height: 55px;
+border-radius: 10px;
+border:none;
+    }
+    .fromto::placeholder{
+        color: rgba(163, 152, 152, 0.644);
+        font-size: 17px;
+    }
+    .button{
+        background-color: #5F6D90;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-weight: 700;
+    }
+
+/*MAin*/
+
+#infos{
+    margin-top: 50px;
+    grid-gap: 20px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#infos h5{
+    font-family: 'roboto';
+    color: #032741;
+    font-size:20px ;
+}
+#infos p{
+    font-family: 'abel';
+    font-size:23px ;
+
+}
+.card{
+    padding: 90px;
+}
+
+
+

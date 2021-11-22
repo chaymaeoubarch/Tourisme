@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HeaderFooter.css">
+    <link rel="stylesheet" href="stays.css">
+    <link rel="stylesheet" href="MQ_Stays.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Tourisme</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="assets/logo.png" alt="">
+               <ul class="nav-menu" id="navlist">
+                   <li class="list-item"> <a href="home.html"> Home</a> </li>
+                   <li class="list-item"> <a href="flight.html"> Flights</a> </li>
+                   <li class="list-item"> <a href="stays.html"> Stays</a> </li>
+                   <li class="list-item"> <a href="about.html"> About</a> </li>
+               </ul>
+               <div class="menu" id="nav_icon">
+                   <i class="fa fa-bars"></i>
+               </div>
+        </nav>
+            </header>
+        <main>
+           <div class="sec"> 
+            <h2>Hotel Deals</h2>
+            <div id="places">
+            <div class="card">
+            <img src="assets/hotel1.png" alt="">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+            <h5>Pearlshine Retreat Maldives</h5>
+              </div>
+              <div class="card">
+                <img src="assets/hotel2.png" alt="">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                 </div>
+                <h5>Camino Gotel Mexico</h5>
+                  </div>
+                  <div class="card">
+                    <img src="assets/hotel3.png" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                    <h5>Gran sol Hotel Ibiza</h5>
+                      </div>
+                  
+                  
+            </div>
+        </div>
+            <div class="sec">
+                <h2>Camp Deals</h2>
+                <div id="places">
+                    <div class="card">
+                    <img src="assets/camp1.png" alt="">
+                    <h5>Zion Park Utah USA</h5>
+                      </div>
+                      <div class="card">
+                        <img src="assets/camp2.png" alt="">
+                        <h5>Mount Cook Park Newzeland</h5>
+                          </div>
+                          <div class="card">
+                            <img src="assets/camp3.png" alt="">
+                            <h5>The Alps France</h5>
+                              </div>
+                          
+                          
+                    </div>
+            </div>
+            </div>
+    
+          
+        </main>
+        <footer>
+            <p>Privacy Terms & Conditions ©2021 Wise Travel</p>
+         <div class="sm">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest-p"></i>
+        </div>
+            <p>Wise Travel is a part of Booking Holdings,
+                 The world leader in online travel & related sevices</p>
+            <div class="cmp">
+                <a href=""><img src="assets/footer1.png" alt=""></a>
+                <a href=""><img src="assets/footer2.png" alt=""></a>
+                <a href=""><img src="assets/footer33.png" alt=""></a>
+            </div>
+        </footer>
+        <script>
+            const togglebutton = document.getElementById('nav_icon');
+            const navList = document.getElementById('navlist');
+            togglebutton.addEventListener('click', ()=>
+            navList.classList.toggle('active')
+            );
+        </script>
+</body>
+</html>

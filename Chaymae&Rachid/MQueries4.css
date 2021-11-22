@@ -1,0 +1,64 @@
+@media only screen and (max-width:415px)
+{
+    .nav-menu{
+        display:none;
+        position: absolute;
+        background-color: #4580c9c0; 
+        width: 100%;
+        padding : 10%;
+        top: 10%;
+        text-align: center;
+        
+
+    }
+    nav {
+        width: 100%;
+        }
+        nav ul li a 
+        {
+        font-size: 25px !important; 
+        text-decoration: none !important ;
+        text-shadow: none !important;
+        font-family: 'roboto' !important;
+        line-height: 50px;
+        
+        }
+   
+    nav #nav_icon 
+    {
+        display: flex;
+        align-items: center;
+        color:white;
+       
+    }
+    .active{display: block;}
+    
+    h1 {
+        color: white;
+        font-family: 'roboto';
+        font-size: 35px;
+    }
+    
+    input[type=submit]{
+       
+        height: 30px;
+        width: 90px;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    input[type=text]{
+        height: 30px;
+        width: 200px;
+    }
+    textarea{
+       width: 200px;
+        margin-top: 5%;
+    }
+
+    main {
+        width: 250px;
+        height: 380px;
+        
+    }
+
+}
